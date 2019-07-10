@@ -1,0 +1,110 @@
+﻿
+//=== Form ===
+#ContactForm .SubmitButtonContactContainer
+{
+  margin-right: 30px;
+}
+
+
+//=== Nav ===
+.nav > li.NavLarge
+{
+  display: inline-block;
+}
+
+.ToggleMenu
+{
+  display: none;
+  width: 0;
+  margin: 0;
+  padding: 0;
+  border: none;
+  height: 0;
+  opacity: 0;
+}
+
+#NavbarStripSmall
+{
+  display: none;
+}
+
+.ScreenSmallMenuMore .ScreenSmall
+{
+  display: none;
+}
+
+.ScreenSmallMenuMore .ScreenLarge
+{
+  display: block;
+}
+
+.ScreenSmallMenuMore .ScreenLarge p
+{
+  text-align: center;
+}
+
+.row.ToggleMenuOfCoursesContainer
+{
+  margin: 0 auto;
+}
+
+.row.ToggleMenuOfCoursesContainer .col-sm-3
+{
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.ScreenSmallMenuMore
+{
+  width: 100%;
+}
+
+.ScreenSmallMenuMore p
+{
+  display: block;
+  width: 100%;
+  padding: 0;
+}
+
+.ScreenSmallMenuMore p button, .ScreenSmallMenuMore p a
+{
+  display: block;
+  width: 100%;
+}
+
+.ModalMenuButtonB, .ModalMenuButton
+{
+  display: none;
+}
+
+.MenuButtonB, .NavigationMenuButton
+{
+  display: block;
+}
+
+
+//=== Footer ===
+.ComponentFooterB .content.A, .ComponentFooterB .content.B
+{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.ComponentFooterB .content.C, .ComponentFooterB .content.D
+{
+  margin-bottom: 20px;
+}
+
+.ComponentFooterC .content.A, .ComponentFooterC .content.B, .ComponentFooterC .content.C
+{
+  margin: 10px auto;
+}
+
+//=== Line ===
+.Line.A
+{
+  padding: 6px 0;
+}
+
+
+

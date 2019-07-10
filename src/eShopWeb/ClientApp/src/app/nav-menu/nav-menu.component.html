@@ -1,0 +1,46 @@
+<p id="CloseMenu" class="ModalMenuButtonContainer">
+  <a [routerLink]="['/']" class="FixedHomeLogo WebAppMenuButtonB">
+    <span class=""
+          style="display: inline-block;
+    margin: 0 auto;
+    padding: 12px 10px;
+    border: 5px solid #ff6a00;
+    border-radius: 30px;">Contact API SPA</span>
+  </a>
+</p>
+
+<header class="HeaderNavigationContainerMain NavShowHide">
+  <nav id="#Navigation" class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <ul class="nav navbar-nav">
+        <li id="NavbarStripSmall" class="NavbarStripSmall"><span></span></li>
+        <li class="NavLarge"><a [routerLink]='["/contact"]'>Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!--=== Nav Slim S ===-->
+<div id="SmallScreenMenu" role="navigation">
+  <p><a [routerLink]='["/contact"]'>Contact Us</a></p>
+</div>
+
+<div id="sidebar" role="navigation">
+  <p><a [routerLink]='["/contact"]'>Contact Us</a></p>
+</div>
+
+<p id="ToggleSidebar" class="ModalMenuButtonContainer toggle-btn LARGE">
+  <button class="ModalMenuButton-- NavigationMenuButton">
+    <span class="icon-bar A"></span>
+    <span class="icon-bar A"></span>
+    <span class="icon-bar A"></span>
+  </button>
+</p>
+
+<p id="ToggleSmallScreenMenu" class="ModalMenuButtonContainer toggle-btn SMALL">
+  <button class="ModalMenuButton">
+    <span class="icon-bar A"></span>
+    <span class="icon-bar A"></span>
+    <span class="icon-bar A"></span>
+  </button>
+</p>

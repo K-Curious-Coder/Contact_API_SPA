@@ -1,0 +1,174 @@
+
+<site-header [pageTitle]="pageTitle"></site-header>
+
+<div id="CurrentLoadedPage" class="CurrentLoadedPage A" *ngIf="contact">
+  <div class="CurrentLoadedPage-Tint">
+    <div class="container">
+      <section class="PageTheme panel PanelTintDefault panel-default">
+
+        <div class="panel-body">
+          <div class="PageContent PageContentContainer">
+
+            <hr class="LineDefault" />
+
+            <p class="ContactRequest CenterText">This is just demo text.  Thank you.</p>
+
+            <div class="FormContainer">
+
+              <form #contactForm="ngForm" (ngSubmit)="saveContact(contactForm)">
+
+                <div class="FormGroup">
+                  <h4 class="MarginTop_X3  MarginBottom_X1">Personal Details</h4>
+
+                  <div class="form-group" [class.has-error]="titleAndFullName.invalid && titleAndFullName.touched" [class.has-success]="titleAndFullName.valid">
+
+                    <label for="titleAndFullName" class="control-label">Title and Full Name</label>
+
+                    <input required id="titleAndFullName" name="titleAndFullName" #titleAndFullName="ngModel" type="text" class="form-control" autofocus="autofocus" placeholder="Full Name is Required" title="Enter Full Name" [(ngModel)]="contact.titleAndFullName" />
+
+                    <span class="help-block ContactUsFeedback alert alert-danger" *ngIf="titleAndFullName.invalid && titleAndFullName.touched">
+                      Full Namee is required
+                    </span>
+                  </div>
+                </div>
+
+                <div class="FormGroup">
+                  <h4 class="MarginTop_X3  MarginBottom_X1">Contact Details</h4>
+
+                  <div class="form-group" [class.has-error]="email.invalid && email.touched" [class.has-success]="email.valid">
+
+                    <label for="email" class="control-label">Email</label>
+
+                    <input required pattern="{{emailPattern}}" id="email" name="email" #email="ngModel" type="email" class="form-control" autofocus="autofocus" placeholder="Email is Required" title="Enter Email" [(ngModel)]="contact.email" />
+
+                    <span class="help-block ContactUsFeedback alert alert-danger" *ngIf="email.errors?.required && email.touched">
+                      Email is required
+                    </span>
+
+                    <span class="help-block ContactUsFeedback alert alert-danger" *ngIf="email.errors?.pattern && email.touched">
+                      Email is invalid
+                    </span>
+
+                  </div>
+                </div>
+
+                <div class="FormGroup">
+                  <h4 class="MarginTop_X3  MarginBottom_X1">Contact Message</h4>
+
+                  <div class="form-group" [class.has-error]="message.invalid && message.touched" [class.has-success]="message.valid">
+
+                    <label for="message" class="control-label">Message</label>
+
+                    <textarea required id="message" name="message" #message="ngModel" type="text" class="form-control" autofocus="autofocus" placeholder="Message is Required" title="Enter Message" [(ngModel)]="contact.message">
+
+                              </textarea>
+
+                    <span class="help-block ContactUsFeedback alert alert-danger" *ngIf="message.invalid && message.touched">
+                      Your Message is required
+                    </span>
+                  </div>
+                </div>
+
+                <div class="FormGroup">
+                  <h4 class="MarginTop_X3  MarginBottom_X1">Get in Touch</h4>
+                  <p class="MarginBottom_X1">Get in touch with us to see how we can help you.</p>
+                  <p class="ClickWhenFormFilledIn MarginBottom_X1">When all required fields are filled in, you can click (Get in Touch).</p>
+
+                  <div class="form-group">
+                    <div class="">
+                      <button [disabled]="contactForm.invalid" class="btn btn-primary btn-lg ShopButton">Get in Touch</button>
+
+                      <button class="btn btn-primary btn-lg ShopButton" (click)="goBack()">Back</button>
+                    </div>
+                  </div>
+                </div>
+
+              </form>
+
+            </div>
+
+            <hr class="LineDefault" />
+
+            <section class="Content A">
+              <div class="Item">
+                <h3 class="MarginTop_X4  MarginBottom_X2">Other Ways to Contact Us</h3>
+
+                <div class="row">
+                  <div class="col-sm-6">
+                    <h4>Dummy Contact Number</h4>
+                    <p>Sales and Inquiries: (+##) #### ### ####</p>
+                    <p>Call us Monday - Friday ##am to ##pm.</p>
+                    <p>Saturday ##am - ##pm</p>
+                    <p>Sunday ##am - ##pm</p>
+                  </div>
+
+                  <div class="col-sm-6">
+                    <h4>Head Office</h4>
+                    <p>Dummy Place</p>
+                    <p>Dummy City</p>
+                    <p>Dummy Postcode</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <hr class="LineDefault" />
+
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row ComponentFooterB">
+    <div class="col-sm-6 col-md-3">
+      <div class="content A">
+        <h4>Head Office</h4>
+        <p>Some Place Way</p>
+        <p>Some City</p>
+        <p>Some Postcode</p>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+      <div class="content B">
+        <h4>UK Contact Number</h4>
+        <p>Sales and Inquiries: (+##) #### ### ####</p>
+        <p>Call us Monday - Friday ##am to ##pm.</p>
+        <p>Saturday ##am - ##pm</p>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+      <div class="content C">
+        <h4>Main Links</h4>
+        <p><a [routerLink]="['/about']">About Us</a></p>
+        <p>Dummy Text</p>
+        <p>Dummy Text</p>
+        <p><a [routerLink]="['/contact']">Contact Us</a></p>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+      <div class="content D">
+        <h4>Information</h4>
+        <p>Dummy Text</p>
+        <p>Dummy Text</p>
+        <p>Dummy Text</p>
+        <p>Dummy Text</p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="row ComponentFooterC">
+    <div class="col-xs-12 col-sm-6">
+      <div class="content A">
+        <p class="CentreText"><a [routerLink]="['/']">Home</a></p>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+      <div class="content B">
+        <p class="CentreText">&copy; {{theCurrentYear}} uClamp Ltd.</p>
+      </div>
+    </div>
+  </footer>
+</div>

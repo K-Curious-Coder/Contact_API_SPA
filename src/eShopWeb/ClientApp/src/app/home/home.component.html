@@ -1,0 +1,88 @@
+
+<site-header [pageTitle]="pageTitle"></site-header>
+
+<div class="CurrentLoadedPage A">
+
+  <div class="CurrentLoadedPage-Tint">
+
+    <div class="container-fluid ComponentContainer">
+
+      <div class="row">
+        <hr class="LineMarginTop" />
+        <!--<p class="ProductsExampleUses CentreText"><a [routerLink]='["/example-uses"]' class="ProductsExampleUsesLink">Example Uses</a></p>-->
+        <hr class="LineMarginTop" />
+
+        <div class="col-xs-12">
+          <div class="ComponentA MarginBottom">
+            <div class="row">
+              <div class="col-xs-12">
+                <h4 class="FeaturedItemHeading">Contact</h4>
+                <p class="FeaturedItemInfo A">Ccotact Us</p>
+                <p class="FeaturedItemInfo B">This is a dummy paragraph.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <p class="CentreText BuyNowLinkContainer"><a class="BuyNowLink btn btn-primary btn-lg btn-block" href="/contact">Contact Us</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row ComponentFooterB">
+    <div class="col-sm-6 col-md-3">
+      <div class="content A">
+        <h4>Head Office</h4>
+        <p>Some Place Way</p>
+        <p>Some City</p>
+        <p>Some Postcode</p>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+      <div class="content B">
+        <h4>UK Contact Number</h4>
+        <p>Sales and Inquiries: (+##) #### ### ####</p>
+        <p>Call us Monday - Friday ##am to ##pm.</p>
+        <p>Saturday ##am - ##pm</p>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+      <div class="content C">
+        <h4>Main Links</h4>
+        <p><a [routerLink]="['/about']">About Us</a></p>
+        <p>Dummy Text</p>
+        <p>Dummy Text</p>
+        <p><a [routerLink]="['/contact']">Contact Us</a></p>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+      <div class="content D">
+        <h4>Information</h4>
+        <p>Dummy Text</p>
+        <p>Dummy Text</p>
+        <p>Dummy Text</p>
+        <p>Dummy Text</p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="row ComponentFooterC">
+    <div class="col-xs-12 col-sm-6">
+      <div class="content A">
+        <p class="CentreText"><a [routerLink]="['/']">Home</a></p>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+      <div class="content B">
+        <p class="CentreText">&copy; {{theCurrentYear}} MAK</p>
+      </div>
+    </div>
+  </footer>
+</div>

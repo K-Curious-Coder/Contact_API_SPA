@@ -1,0 +1,481 @@
+.fullScreen
+{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.PageTitle
+{
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 0;
+  background-color: #7d8082;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #FFF;
+}
+
+.CentreText
+{
+  text-align: center;
+}
+
+.ProductPageMainHeader
+{
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+  text-align: center;
+  background-color: #e2e2e2;
+  color: #d0550a;
+  font-weight: 800;
+}
+
+.ComponentContainer
+{
+  max-width: 1800px;
+}
+
+.ComponentA
+{
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  padding: 25px;
+  border: none;
+  background-color: #e1e9f1;
+}
+
+.ComponentFooterB
+{
+  background-color: #56606b;
+}
+
+.ComponentFooterB .content.A
+{
+  margin-top: 20px;
+}
+
+.ComponentFooterB .content.B, .ComponentFooterB .content.C
+{
+  margin: 0 auto;
+}
+
+.ComponentFooterB .content.D
+{
+  margin-bottom: 20px;
+}
+
+.ComponentFooterC
+{
+  background-color: #1d4169;
+}
+
+.ComponentFooterC .content.A
+{
+  margin-top: 20px;
+}
+
+.ComponentFooterC .content.B
+{
+  margin: 0 auto;
+}
+
+.ComponentFooterC .content.C
+{
+  margin-bottom: 20px;
+}
+
+.ComponentFooterB .content h4
+{
+  color: #ff8400;
+}
+
+.ComponentFooterB .content p, .ComponentFooterB .content a, .ComponentFooterC .content p, .ComponentFooterC .content a
+{
+  padding: 10px 0;
+  color: #FFF;
+}
+
+.ComponentFooterB .content p, .ComponentFooterB .content a
+{
+  font-size: 1.6rem;
+}
+
+.ComponentFooterC .content p, .ComponentFooterC .content a
+{
+  font-size: 1.4rem;
+}
+
+.BuyNowLink
+{
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+.BuyNowLinkContainer
+{
+  margin-top: 30px;
+}
+
+.FeaturedItemHeading
+{
+  margin-top: 30px;
+  color: #e24b00;
+}
+
+.FeaturedItemInfo.A
+{
+  margin-top: 20px;
+  color: #0076dc;
+}
+
+.FeaturedItemInfo.B
+{
+  margin-top: 10px;
+  color: #000;
+}
+
+.FooterBanner
+{
+  height: auto;
+}
+
+.ProductsExampleUsesLink
+{
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: #047fe4;
+  color: #FFF;
+  border: none;
+  border-radius: 40px;
+}
+
+.ProductsExampleUsesLink:hover
+{
+  background-color: #0860a8;
+  color: #FFF;
+}
+
+//===================
+
+.btn
+{
+  white-space: normal;
+}
+
+.PrivacyPolicyList
+{
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.PrivacyPolicyList li
+{
+  padding-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.LineDefault
+{
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 0;
+  background-color: transparent;
+  border: none;
+}
+
+.LineMarginTop
+{
+  width: 100%;
+  margin: 60px auto 0 auto;
+  margin: 30px auto;
+  background-color: transparent;
+  border: none;
+}
+
+.MarginTop
+{
+  margin-top: 60px;
+}
+
+.MarginBottom
+{
+  margin-bottom: 60px;
+}
+
+.MarginTop_X1
+{
+  margin-top: 10px;
+}
+
+.MarginTop_X2
+{
+  margin-top: 20px;
+}
+
+.MarginTop_X3
+{
+  margin-top: 30px;
+}
+
+.MarginTop_X4
+{
+  margin-top: 40px;
+}
+
+.MarginBottom_X1
+{
+  margin-bottom: 10px;
+}
+
+.MarginBottom_X2
+{
+  margin-bottom: 20px;
+}
+
+.MarginBottom_X3
+{
+  margin-bottom: 30px;
+}
+
+.MarginBottom_X4
+{
+  margin-bottom: 40px;
+}
+
+.PageThemeImageContainer
+{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+#UCosyColourBlack, #UCosyColourSteel, #UCosyColourNavy, #UCosyColourClear
+{
+  width: 100%;
+  margin: 0 auto;
+}
+
+#UCosyColourBlack p, #UCosyColourSteel p, #UCosyColourNavy p, #UCosyColourClear p
+{
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+#UCosyColourBlack
+{
+  background-color: #000;
+}
+
+#UCosyColourSteel
+{
+  background-color: #797778;
+}
+
+#UCosyColourNavy
+{
+  background-color: #212a61;
+}
+
+#UCosyColourClear
+{
+  background-color: #fff;
+  border: solid 1px #000;
+}
+
+#UCosyColourClear p
+{
+  color: #000;
+}
+
+//===
+
+.CentreItem a.ShopButton
+{
+  padding: 20px;
+  border-radius: 40px;
+}
+
+.UClampUsesButtonContainer
+{
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 30px;
+  background-color: #114358;
+}
+
+.UClampUsesButtonGroupHeading
+{
+  color: #FFF;
+}
+
+.PotentialUses
+{
+  padding: 8px;
+  background-color: #e47804;
+  color: #FFF;
+}
+
+div.callToActionItemsItem, div.experienceTheWorldItem
+{
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.Centre.Round
+{
+  margin: 0 auto;
+  padding: 0;
+}
+
+.ButtonRound
+{
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  padding: 60px 3px;
+  border-radius: 100%;
+}
+
+span.callToActionItemGlyph
+{
+  display: block;
+}
+
+//===
+.PageContentContainer .Content.A, .PageContentContainer .Content.B
+{
+  width: 100%;
+  margin: 20px auto;
+  margin: 0 auto;
+  padding: 20px 20px;
+  border-radius: 20px;
+  background-color: #c4d5f5;
+}
+
+.PageContentContainer .Content .Item
+{
+  width: auto;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #fff;
+  border: none;
+}
+
+//=== Navigation
+.Line.A
+{
+  width: 100%;
+  margin: 0 auto;
+  padding: 4px 0;
+  border-radius: 50%;
+  background-color: #094b92;
+}
+
+//===
+.UClampImageContainer.NoBackground:hover, a:hover
+{
+  transition: all 0.4s;
+}
+
+.UClampImageContainer.NoBackground:hover
+{
+  box-shadow: #c5c9d0 0 0 40px;
+}
+
+a.btn.btn-primary.btn-lg.ShopButton:hover
+{
+  box-shadow: #c5c9d0 0 0 60px;
+}
+
+.ClickWhenFormFilledIn
+{
+  padding: 6px 10px;
+  background-color: #80a9f1;
+  color: #FFF;
+}
+
+
+.CurrentLoadedPage.A, CurrentLoadedPage.B, CurrentLoadedPage.C, CurrentLoadedPage.D, .CurrentLoadedPage.BannerPageHead
+{
+  margin: 0 auto;
+  padding: 0;
+  border: none;
+}
+
+.CurrentLoadedPage.A
+{
+  background-image: linear-gradient(to bottom, #2e587b, #FFF);
+  background: url('/assets/Background/bg00.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.CurrentLoadedPage.B
+{
+  background-image: linear-gradient(to bottom, #2e587b, #FFF);
+  background: url('/assets/Background/bg00.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.CurrentLoadedPage.C
+{
+  background-image: linear-gradient(to bottom, #2e587b, #FFF);
+  background: url('/assets/Background/bg00.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.CurrentLoadedPage.D
+{
+  background-image: linear-gradient(to bottom, #2e587b, #FFF);
+}
+
+
+//
+.CurrentLoadedPage.BannerPageHead
+{
+  background: url('/assets/Background/04.jpg') no-repeat center center; // Y
+  background: url('/assets/Background/12.jpg') no-repeat center center; // Y SS
+  background-size: cover;
+}
+
+@media(min-width: 768px)
+{
+  .CurrentLoadedPage.BannerPageHead
+  {
+    background: url('/assets/Background/08.jpg') no-repeat center center; // YQ
+    background: url('/assets/Background/06.jpg') no-repeat center center; // Y LS
+    background: url('/assets/Background/05.jpg') no-repeat center center; // Y LS
+    background-size: cover;
+  }
+}
+
+
+
+//nnn
+
+.CurrentLoadedPage-Tint
+{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0.57);
+  background-color: rgba(0, 0, 0, 0.50);
+}
+
+.ThemeTintText
+{
+  color: #FFF;
+}
+

@@ -1,0 +1,149 @@
+
+.FormContainer
+{
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #eaeff7;
+  background-color: rgba(56, 94, 138, 0.59);
+  background-color: rgba(23, 50, 82, 0.5);
+}
+
+.FormGroup
+{
+  color: #FFF;
+}
+
+.form-control
+{
+  margin: 4px auto 1px auto;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  font-size: 1.8rem;
+  transition: all 2s;
+}
+
+.form-control:focus
+{
+  outline: none;
+  box-shadow: none;
+}
+
+label
+{
+  margin-bottom: 0;
+  //color: #003663;
+  //color: #FFF;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.PageItem.Contact
+{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #2c2c2c;
+}
+
+.ContactHeader
+{
+  padding-top: 10px;
+  color: #000;
+  font-size: 2.0rem;
+  font-weight: 400;
+}
+
+#ContactForm .SubmitButtonContactContainer
+{
+  margin: 0 auto;
+  border: none;
+  text-align: right;
+}
+
+#ContactForm .SubmitButtonContactContainer .btn-primary
+{
+  margin: 0 auto;
+  border: none;
+  text-align: right;
+  color: #fff;
+  background-color: #0296bf;
+  border-color: #0296bf;
+}
+
+#ContactForm .SubmitButtonContactContainer .btn-primary:hover
+{
+  background-color: #00afe0;
+  border-color: #00afe0;
+}
+
+.HeaderContactForm
+{
+  margin: 30px auto 20px auto;
+  color: #002544;
+}
+
+.FormFillInstruction
+{
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #0f8fe4;
+  color: #FFF;
+}
+
+// === Form user feedback S ===
+.error.form-control:focus, .error
+{
+  border-color: none;
+  border: none;
+  box-shadow: none;
+  background-color: #ffeae7;
+}
+
+.successFieldState.form-control:focus, .successFieldState
+{
+  border-color: none;
+  border: none;
+  box-shadow: none;
+  background-color: #e8ffc5;
+}
+
+.FeedbackIconFailure, .FeedbackIconSuccess
+{
+  float: right;
+}
+
+.validation, .validation-email, .success-feedback
+{
+  font-size: 1.8rem;
+  display: none;
+}
+
+.success-feedback
+{
+  color: #e8ffc5;
+}
+
+.validation, .validation-email
+{
+  color: #a94442;
+}
+
+.validation .glyphicon.glyphicon-asterisk
+{
+  font-size: 1.2rem;
+}
+
+#ShowCountryNotSelectedMessage
+{
+  display: none;
+}
+
+.FormContainer .alert
+{
+  margin-bottom: 10px;
+}
+// === Form user feedback E ===
+

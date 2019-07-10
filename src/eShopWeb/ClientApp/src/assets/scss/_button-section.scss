@@ -1,0 +1,210 @@
+﻿@import "Variables";
+
+.NgBSModal
+{
+  padding: 0;
+}
+
+.NgBSModal-link
+{
+  padding: 4px 6px 0 6px;
+  border-radius: 30px;
+  border: none;
+  background-color: transparent;
+  font-size: 3rem;
+  color: #94a2ad;
+}
+
+.NgBSModal-link:hover, .NgBSModal-link:focus, .NgBSModal-link:active
+{
+  outline: none;
+  color: #728694;
+}
+
+.NgBSModal-symbol
+{
+  margin: 0;
+  color: #FFF;
+  font-size: 3rem;
+}
+
+.NgBSModal-title
+{
+  padding: 10px;
+  color: #000;
+  background-color: #d6e6ec;
+  text-align: left;
+}
+
+//===
+//This is the parent container for the image buttons - DO NOT DELETE - SHOULD RENAME!.
+.ImageButtonInnerContainer
+{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.ImageButtonLinkInnerContainer
+{
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.IconPosition
+{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 100%;
+  background-color: rgba(0, 0, 0, 0.48);
+}
+
+.ImageButtonLink
+{
+  display: block;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 90px;
+  background-color: rgba(0, 0, 0, 0.20);
+  transition: all 0.5s ease;
+}
+
+a.ImageButtonLink:hover
+{
+  background-color: rgba(0, 0, 0, 0.10);
+}
+
+.ImageButtonLink-img
+{
+  padding: 0;
+}
+
+.ImageButtonLink-Text
+{
+  padding: 10px 0;
+  color: #FFF;
+}
+
+.ButtonBackgroundTintA
+{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 100%;
+  background-color: rgba(0, 0, 0, 0.48);
+}
+
+.ImageButtonLink-parent
+{
+  width: 50%;
+  height: 50%;
+  margin: 25% auto;
+  border-radius: 100%;
+}
+
+.ImageButtonLink-parent.theme
+{
+  background-color: #e47804;
+}
+
+.ImageButtonLink-font
+{
+  color: #FFF;
+}
+
+.ImageButtonLink-info
+{
+  display: none;
+  margin: -15% auto;
+}
+
+.ImageButtonLink-icon
+{
+  margin: 20% auto;
+  font-size: 3.0rem;
+}
+
+@media(min-width: 290px)
+{
+  .ImageButtonLink-info
+  {
+    display: block;
+  }
+}
+
+@media(min-width: 320px)
+{
+  .ImageButtonLink-info
+  {
+    margin: -20% auto;
+  }
+
+  .ImageButtonLink-icon
+  {
+    margin: 25% auto;
+  }
+}
+
+@media(min-width: 480px)
+{
+  .ImageButtonLink-info
+  {
+    margin: -30% auto;
+  }
+
+  .ImageButtonLink-icon
+  {
+    margin: 35% auto;
+  }
+}
+
+@media(min-width: 768px)
+{
+  .ImageButtonLink-info
+  {
+    margin: -15% auto;
+  }
+
+  .ImageButtonLink-icon
+  {
+    margin: 20% auto;
+  }
+}
+
+@media(min-width: 992px)
+{
+  .ImageButtonLink-info
+  {
+    margin: -15% auto;
+  }
+
+  .ImageButtonLink-icon
+  {
+    margin: 20% auto;
+  }
+}
+
+@media(min-width: 1024px)
+{
+  .ImageButtonLink-info
+  {
+    margin: -25% auto;
+  }
+
+  .ImageButtonLink-icon
+  {
+    margin: 30% auto;
+  }
+}
+
+.dummp
+{
+  color: #F00;
+}

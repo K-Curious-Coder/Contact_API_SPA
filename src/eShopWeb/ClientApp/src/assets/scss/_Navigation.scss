@@ -1,0 +1,724 @@
+@import "Variables";
+
+#Navigation
+{
+  position: static;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  border: none;
+  background: rgba(0, 0, 0, 0.00);
+  z-index: 99999999999;
+}
+
+.navbar-default
+{
+  background-color: #092342;
+  border: none;
+  border-bottom: solid 8px #fcbd07;
+}
+
+.navbar-default a
+{
+  font-size: 1.5rem;
+}
+
+.navbar-default .navbar-nav > li > button, .navbar-default .navbar-nav > li > button:focus, .navbar-default .navbar-nav > li > button:active
+{
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.navbar-default .navbar-nav a, .navbar-default .navbar-nav button
+{
+  transition: all 0.4s;
+}
+
+.navbar-default .navbar-nav > li > button, .navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus
+{
+  color: #FFF;
+}
+
+.navbar-default .navbar-nav > li > button, .navbar-nav > li > a
+{
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+
+.navbar
+{
+  margin-bottom: 0;
+  border-radius: 0;
+  min-height: 70px;
+}
+
+.navbar .NavbarStripSmall
+{
+  min-height: 72px;
+}
+
+.navbar-nav
+{
+  float: none;
+  margin: 0;
+  text-align: center;
+}
+
+.navbar-nav > li
+{
+  float: none;
+}
+
+.nav > li
+{
+  position: relative;
+  display: inline-block;
+}
+//======
+
+.LinkOval.btn
+{
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  padding: 60px 0 0 0;
+  border-radius: 100%;
+}
+
+.ButtonContainer
+{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Page
+{
+  padding: 50px 0;
+}
+
+.Page h2
+{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.ServiceItemHeader a
+{
+  background-color: #182C67;
+  color: #FFF;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+.Page .Item
+{
+  padding-top: 10px;
+}
+
+.HeaderIcon
+{
+  display: block;
+  margin-top: 10px;
+}
+
+.MaxWidth
+{
+  width: 100%;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.AdditionalContent .Header
+{
+  margin-top: 0;
+  padding-top: 0;
+  border: 0;
+}
+
+.AsideContent
+{
+  display: none;
+  margin-bottom: 40px;
+}
+
+.AsideContentContainer
+{
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #eefaff;
+}
+
+.AsideContentItem
+{
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #eefaff;
+}
+
+.AsideContentItem .Item
+{
+  margin-bottom: 10px;
+  color: #35515f;
+}
+
+.ButtonModalAside
+{
+  padding: 10px;
+  background-color: #FFF;
+  color: #000;
+  font-weight: 600;
+  letter-spacing: 0.15rem;
+}
+
+.ButtonModalAside:hover
+{
+  color: #000;
+}
+
+.ButtonModalAsideTop
+{
+  padding: 20px 10px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.ButtonModalAsideBottom
+{
+  padding: 20px 10px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.ButtonModalAsideContent
+{
+  padding: 10px;
+  background-color: #d1f5ff;
+  border: 2px solid #2bacd0;
+  border-radius: 20px;
+}
+
+.ModalButtonContact
+{
+  float: left;
+}
+
+.ModalButtonClose
+{
+  float: right;
+}
+
+.ButtonModalAsideTopContainer
+{
+  padding-bottom: 10px;
+}
+
+.ButtonModalAsideBottomContainer
+{
+  padding-top: 0;
+}
+
+a
+{
+  margin: 0;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-shadow: none;
+}
+
+a, a:hover, a:active, a:focus
+{
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.ToggleMenuOfCourses .ToggleMenuOfCoursesHeader
+{
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 0 10px 28px;
+  text-align: left;
+  color: #00495d;
+}
+
+.NgBSModal .close, .ModalBasic .close
+{
+  opacity: 0.6;
+  padding: 8px;
+  font-size: 2.5rem;
+}
+
+.NgBSModal .close:hover, .ModalBasic .close:hover
+{
+  opacity: 1.0;
+}
+
+.NgBSModal .modal-header
+{
+  padding: 6px 6px 2px 6px;
+  background-color: #00489e;
+}
+
+.NgBSModal .modal-title, .ModalBasic .modal-title
+{
+  color: #FFF;
+}
+
+button.close span
+{
+  color: #000;
+}
+
+.ModalBasic .modal-header, .ModalBasic .modal-footer
+{
+  padding-top: 6px;
+  background-color: #00489e;
+  border: none;
+}
+
+.ModalBasic .modal-header
+{
+  padding-bottom: 2px;
+}
+
+.ModalBasic .modal-footer
+{
+  padding-bottom: 6px;
+}
+
+.CenterImage
+{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ServiceItemContent
+{
+  display: block;
+  width: 100%;
+  margin: 40px auto;
+  padding: 20px 10px;
+  background-color: #FFF;
+}
+
+.ServicesLinkHeading
+{
+  margin: 40px auto;
+  color: #FFF;
+}
+
+.ServicesTextSummaryHeading
+{
+  margin: 20px auto;
+  color: #000;
+}
+
+.ServicesTextSummary
+{
+  background-color: #FFF;
+}
+
+.ToggleMenu, .ScreenSmallMenuMore
+{
+  display: none;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  border: none;
+  background-color: #a6dfef;
+}
+
+
+#NavbarStripSmall
+{
+  display: block;
+}
+
+#NavbarStripSmall a:hover
+{
+  background-color: $NavigationMainStateTheme;
+}
+
+#NavbarStripSmall span
+{
+  display: block;
+  padding-top: 15px;
+  border: none;
+  color: #FFF;
+}
+
+.ToggleMenu p, .ScreenSmallMenuMore p
+{
+  width: 100%;
+  margin: 0 auto 2px auto;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.00);
+}
+
+.ScreenSmallMenuMore p button, .ToggleMenu p button, .ToggleMenu p a, .ScreenSmallMenuMore p a
+{
+  display: block;
+  margin: 0 auto;
+  padding: 15px 10px;
+  background-color: #245288;
+  color: #FFF;
+  transition: all 0.5s ease;
+}
+
+.ToggleMenu p a:hover, .ToggleMenu p a:focus, .ToggleMenu p a:active, .ScreenSmallMenuMore p a:hover, .ScreenSmallMenuMore p a:focus, .ScreenSmallMenuMore p a:active
+{
+  background-color: #3569a7;
+}
+
+.ScreenSmallMenuMore .ScreenSmall
+{
+  display: block;
+}
+
+.ScreenSmallMenuMore .ScreenLarge
+{
+  display: none;
+}
+
+@media (min-width: 992px)
+{
+  .ScreenLarge
+  {
+    width: auto;
+    max-width: 992px;
+    margin: 0 auto;
+  }
+
+  .ScreenSmallMenuMore
+  {
+    background-color: #245288;
+  }
+}
+
+.ModalMenuButtonContainer
+{
+  margin: 0 auto;
+}
+
+.MenuButtonB, .ModalMenuButtonB, .ModalMenuButton, .NavigationMenuButton, .FixedHome
+{
+  display: block;
+  position: fixed;
+  background-color: #092342;
+  color: #FFF;
+  border: none;
+  text-decoration: none;
+  outline: none;
+  z-index: 999999999999999;
+}
+
+.FixedHome
+{
+  top: 13px;
+  left: 10px;
+  padding: 8px 10px;
+  border-radius: 12px;
+}
+
+.ModalMenuButton, .NavigationMenuButton
+{
+  top: 12px;
+  left: 10px;
+  padding: 14px 8px;
+  border-radius: 12px;
+}
+
+.NavigationMenuButton
+{
+  display: none;
+}
+
+.ModalMenuButton
+{
+  display: block;
+}
+
+.MenuButtonB, .ModalMenuButtonB
+{
+  top: 12px;
+  left: 60px;
+  padding: 8px 9px;
+  border-radius: 12px;
+}
+
+.ModalMenuButtonB, .ModalMenuButton
+{
+  display: block;
+}
+
+.MenuButtonB
+{
+  display: none;
+}
+
+.ModalMenuButtonB:focus, .ModalMenuButton:focus, .NavigationMenuButton:focus, .MenuButtonB:focus, .FixedHome:focus, .ModalMenuButtonB:hover, .ModalMenuButton:hover, .NavigationMenuButton:hover, .MenuButtonB:hover, .FixedHome:hover
+{
+  background-color: #226cc3;
+  color: #FFF;
+  text-decoration: none;
+  outline: none;
+  transition: all 0.5s ease;
+}
+
+li .glyphicon
+{
+  margin-right: 10px;
+}
+
+#ToggleMenu p.link-active a, #ToggleMenu p.link-active a:hover, #ToggleMenu p.link-active a:focus, li.link-active a, li.link-active a:hover, li.link-active a:focus,
+.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus
+{
+  background-color: $NavigationMainStateTheme;
+  color: #FFF;
+  content: "*";
+  cursor: pointer;
+}
+
+.nav > li.NavLarge
+{
+  display: none;
+}
+
+@media (min-width: 768px)
+{
+  .nav > li.NavLarge
+  {
+    display: inline-block;
+  }
+}
+
+
+//===========
+
+/*//=======
+.SideMenuScreenLarge
+{
+  position: fixed;
+  //top: 20px;
+  top: 60px;
+  left: 0;
+  width: 0;
+  height: 100%;
+  margin: 0 auto;
+  //padding-top: 40px;
+  padding-top: 0;
+  background-color: rgba(9, 35, 66, 0.1);
+  z-index: 999;
+}
+
+.SideMenuScreenLarge p
+{
+  display: none;
+  width: 100%;
+  //margin: 0 auto;
+  margin: 20px auto;
+  padding: 0;
+}
+
+.SideMenuScreenLarge p a
+{
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #245288;
+  color: #FFF;
+  transition: all 0.5s ease;
+}
+
+.SideMenuScreenLarge p a:active, .SideMenuScreenLarge p a:focus, .SideMenuScreenLarge p a:hover
+{
+  background-color: #3569a7;
+  text-decoration: none;
+  outline: none;
+}*/
+
+.MenuButtonB .MenuClose, .ModalMenuButtonB .MenuClose
+{
+  display: none;
+}
+
+.collapse
+{
+  display: block;
+}
+
+// === Nav Actions Style Rules - No jQuery S ===
+//??????????????????????
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+#sidebar, #SmallScreenMenu
+{
+  position: fixed;
+  transition: all 500ms;
+  background-color: rgba(9, 35, 66, 0.1);
+  z-index: 9999;
+}
+
+#sidebar
+{
+  display: none;
+  left: -200px;
+  top: 60px;
+  width: 200px;
+  height: 100%;
+}
+
+#SmallScreenMenu
+{
+  display: block;
+  top: -520px;
+  width: 100%;
+  transition: all 550ms;
+}
+
+#sidebar.active
+{
+  left: 0;
+}
+
+#sidebar.close
+{
+  left: -200px;
+}
+
+#SmallScreenMenu.active
+{
+  top: 60px;
+}
+
+#SmallScreenMenu.close
+{
+  top: -520px;
+}
+
+#SmallScreenMenu p, #sidebar p, #SmallScreenMenu ul, #sidebar ul
+{
+  width: 100%;
+  margin: 20px auto;
+  padding: 0;
+}
+
+#SmallScreenMenu ul li, #sidebar ul li
+{
+  color: #eee;
+  list-style: none;
+  padding: 10px 0;
+  border-bottom: 1px solid #999;
+}
+
+#SmallScreenMenu p a, #sidebar p a,
+#SmallScreenMenu ul li a, #sidebar ul li a
+{
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #245288;
+  color: #FFF;
+  transition: all 0.5s ease;
+  z-index: 999999;
+}
+
+.SideMenuScreenLarge p a:active, .SideMenuScreenLarge p a:focus, .SideMenuScreenLarge p a:hover,
+#SmallScreenMenu ul li a:active, #SmallScreenMenu ul li a:focus, #SmallScreenMenu ul li a:hover,
+#sidebar ul li a:active, #sidebar ul li a:focus, #sidebar ul li a:hover,
+//
+#SmallScreenMenu p a:active, #SmallScreenMenu p a:focus, #SmallScreenMenu p a:hover,
+#sidebar p a:active, #sidebar p a:focus, #sidebar p a:hover
+{
+  background-color: #3569a7;
+  text-decoration: none;
+  outline: none;
+}
+
+#ToggleSidebar
+{
+  display: none;
+}
+
+#ToggleSmallScreenMenu
+{
+  display: block;
+}
+
+//????????????????????????????????
+.icon-bar
+{
+  display: block;
+  width: 22px;
+  height: 2px;
+  margin: 5px 0;//??
+  border-radius: 1px;
+}
+
+.icon-bar + .icon-bar
+{
+  margin-top: 4px;
+}
+
+.icon-bar.A
+{
+  background-color: #FFF;
+}
+
+.icon-bar.B
+{
+  background-color: #FFF;
+}
+//ggo
+
+@media(min-width: 768px)
+{
+  #sidebar, #ToggleSidebar
+  {
+    display: block;
+    z-index: 9999;
+  }
+
+  #SmallScreenMenu, #ToggleSmallScreenMenu
+  {
+    display: none;
+  }
+}
+// === Nav Actions Style Rules - No jQuery S ===
+
+//==========
+.FixedHomeLogo
+{
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 60px;
+  padding: 5px 10px;
+  background-color: transparent;
+  color: #FFF;
+  border: none;
+  border-radius: 12px;
+  text-decoration: none;
+  outline: none;
+  z-index: 999999999999999;
+}
+
+.FixedHomeLogo:focus, .FixedHomeLogo:hover
+{
+  background-color: transparent;
+  color: #FFF;
+  text-decoration: none;
+  outline: none;
+  transition: all 0.5s ease;
+}
+//==============

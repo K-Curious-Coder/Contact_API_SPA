@@ -1,0 +1,95 @@
+﻿// === Generic Styles S ===
+
+html
+{
+  font-size: 62.5%;
+}
+
+body
+{
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  font-weight: 400;
+  font-size: 1.0rem;
+  background-color: #FFF;
+  background-color: #e5e8ea;
+  background-color: #f3f7f9;
+  color: #000;
+}
+
+a
+{
+  cursor: pointer;
+}
+
+.FixedTop
+{
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6, div, section
+{
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+h1
+{
+  font-size: 3.0rem;
+}
+
+h2
+{
+  font-size: 2.8rem;
+}
+
+h3
+{
+  font-size: 2.6rem;
+}
+
+h4
+{
+  font-size: 2.4rem;
+}
+
+h5
+{
+  font-size: 2.0rem;
+}
+
+p
+{
+  font-size: 1.8rem;
+}
+
+.CenterText
+{
+  text-align: center;
+}
+
+.LeftText
+{
+  text-align: left;
+}
+
+.RightText
+{
+  text-align: right;
+}
+
+.SpaceTop
+{
+  padding-top: 20px;
+}
+
+.SpaceBottom
+{
+  padding-bottom: 20px;
+}
+// === Generic Styles E ===
